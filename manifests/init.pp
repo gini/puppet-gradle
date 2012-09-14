@@ -88,7 +88,7 @@ class gradle(
     extension  => 'zip',
   }
 
-  file { $target:
+  file { $target_real:
     ensure  => link,
     target  => "/opt/gradle-${version_real}",
     require => Archive["Download Gradle ${version_real}"],
