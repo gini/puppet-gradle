@@ -95,8 +95,8 @@ class gradle(
   }
 
   file { '/etc/profile.d/gradle.sh':
-    ensure => file,
-    mode   => '0644',
-    source => "puppet:///modules/${module_name}/gradle.sh",
+    ensure  => file,
+    mode    => '0644',
+    content => template("${module_name}/gradle.sh.erb"),
   }
 }
