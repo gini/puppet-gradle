@@ -82,19 +82,19 @@ class gradle(
     group => 'root',
   }
 
-  archive { "Download Gradle ${version_real}":
+  archive { "gradle-${version_real}-all.zip":
     ensure     => present,
     url        => $url_real,
     checksum   => false,
     src_target => '/var/tmp',
-    target     => $target_real,
+    target     => '/opt',
     extension  => 'zip',
   }
 
   file { $target_real:
     ensure  => link,
     target  => "/opt/gradle-${version_real}",
-    require => Archive["Download Gradle ${version_real}"],
+    require => Archive["gradle-${version_real}-all.zip"],
   }
 
   file { '/etc/profile.d/gradle.sh':
