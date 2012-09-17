@@ -76,7 +76,7 @@ class gradle(
   Exec {
     path  => [
       '/usr/local/sbin', '/usr/local/bin',
-      '/usr/sbin', '/usr/bin', '/sbin', '/bin', 
+      '/usr/sbin', '/usr/bin', '/sbin', '/bin',
     ]
     user  => 'root',
     group => 'root',
