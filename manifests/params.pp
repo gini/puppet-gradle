@@ -15,7 +15,7 @@ class gradle::params {
   }
 
   $base_url = $::gradle_base_url ? {
-    undef   => 'http://services.gradle.org/distributions/',
+    undef   => 'http://downloads.gradle.org/distributions',
     default => $::gradle_base_url,
   }
 
