@@ -49,6 +49,7 @@ class gradle(
   $base_url = 'UNSET',
   $url      = 'UNSET',
   $target   = 'UNSET',
+  $timeout  = 120,
 ) {
 
   include gradle::params
@@ -89,6 +90,7 @@ class gradle(
     src_target => '/var/tmp',
     target     => '/opt',
     extension  => 'zip',
+    timeout    => $timeout,
   }
 
   file { $target_real:
