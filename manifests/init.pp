@@ -89,6 +89,7 @@ class gradle(
     src_target => '/var/tmp',
     target     => '/opt',
     extension  => 'zip',
+    timeout    => 500,
   }
 
   file { $target_real:
