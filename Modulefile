@@ -1,5 +1,5 @@
 name         'puppet-gradle'
-version      '0.1.1'
+version      '0.1.2'
 author       'Jochen Schalanda'
 license      'Apache 2.0'
 project_page 'https://github.com/smarchive/puppet-gradle'
