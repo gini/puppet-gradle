@@ -15,7 +15,7 @@ Usage
 Example:
 
     class { 'gradle':
-      version => '1.3',
+      version => '1.6',
     }
 
 
@@ -25,6 +25,7 @@ Supported Platforms
 The module has been tested on the following operating systems. Testing and patches for other platforms are welcome.
 
 * Fedora 17
+* Fedora 18
 
 
 License
