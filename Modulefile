@@ -1,4 +1,4 @@
-name         'puppet-gradle'
+name         'smarchive-gradle'
 version      '0.1.2'
 author       'Jochen Schalanda'
 license      'Apache 2.0'
