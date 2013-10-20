@@ -33,7 +33,7 @@
 # === Examples
 #
 #  class { 'gradle':
-#    version => '1.6'
+#    version => '1.8'
 #  }
 #
 # === Authors

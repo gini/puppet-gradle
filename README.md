@@ -15,7 +15,7 @@ Usage
 Example:
 
     class { 'gradle':
-      version => '1.6',
+      version => '1.8',
     }
 
 
