@@ -41,4 +41,4 @@ See http://www.apache.org/licenses/LICENSE-2.0.html for the full license text.
 Support
 -------
 
-Please log tickets and issues at our [project site](https://github.com/smarchive/puppet-gradle/issues).
+Please log tickets and issues at our [project site](https://github.com/gini/puppet-gradle/issues).
