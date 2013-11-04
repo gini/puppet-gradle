@@ -89,6 +89,7 @@ class gradle(
     checksum   => false,
     src_target => '/var/tmp',
     target     => '/opt',
+    root_dir   => "gradle-${version_real}",
     extension  => 'zip',
     timeout    => $timeout,
   }
