@@ -25,6 +25,9 @@
 #   Specify the location of the symlink to the Gradle installation on the local
 #   filesystem.
 #
+# [*daemon*]
+#   Specify if the Gradle daemon should be running
+#
 # === Variables
 #
 # The variables being used by this module are named exactly like the class
@@ -50,6 +53,7 @@ class gradle(
   $url      = 'UNSET',
   $target   = 'UNSET',
   $timeout  = 120,
+  $daemon   = true
 ) {
 
   include gradle::params
