@@ -41,11 +41,11 @@
 #
 # === Authors
 #
-# Jochen Schalanda <j.schalanda@smarchive.de>
+# Jochen Schalanda <j.schalanda@gini.net>
 #
 # === Copyright
 #
-# Copyright 2012, 2013 smarchive GmbH
+# Copyright 2012, 2013 smarchive GmbH, 2013 Gini GmbH
 #
 class gradle(
   $version  = 'UNSET',

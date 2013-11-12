@@ -1,7 +1,7 @@
 Gradle Puppet Module
 ====================
 
-Project moved to https://github.com/gini/puppet-gradle
+[![Build Status](https://secure.travis-ci.org/gini/puppet-gradle.png)](http://travis-ci.org/gini/puppet-gradle)
 
 Overview
 --------
@@ -28,18 +28,23 @@ The module has been tested on the following operating systems. Testing and patch
 * Fedora 18
 
 
-License
--------
-
-Copyright (c) 2012, 2013 smarchive GmbH
-
-This script is licensed under the Apache License, Version 2.0.
-
-See http://www.apache.org/licenses/LICENSE-2.0.html for the full license text.
-<<<<<<< HEAD
-
-
 Support
 -------
 
-Please log tickets and issues at our [project site](https://github.com/gini/puppet-gradle/issues).
+Please create bug reports and feature requests in [GitHub issues](https://github.com/gini/puppet-gradle/issues).
+
+
+License
+-------
+
+Copyright (c) 2012, 2013 smarchive GmbH, 2013 Gini GmbH
+
+This script is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+
+Contributors
+------------
+
+* Rickard von Essen (rickard-von-essen)
+* Steve Hill (sghill)
+* Steven Post (stevenpost)
