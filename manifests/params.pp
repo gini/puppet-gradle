@@ -10,7 +10,7 @@
 #
 class gradle::params {
   $version = $::gradle_version ? {
-    undef   => '1.6',
+    undef   => '1.8',
     default => $::gradle_version
   }
 
