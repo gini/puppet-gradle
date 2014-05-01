@@ -87,6 +87,13 @@ class gradle(
     group => 'root',
   }
 
+  if ! defined(Package['unzip']) {
+    package { 'unzip':
+      ensure => present,
+      before => Archive["gradle-${version_real}-all.zip"],
+    }
+  }
+
   archive { "gradle-${version_real}-all.zip":
     ensure     => present,
     url        => $url_real,
