@@ -93,7 +93,7 @@ class gradle(
       before => Archive["gradle-${version_real}-all.zip"],
     }
   }
-  
+
   archive { "gradle-${version_real}-all.zip":
     ensure     => present,
     url        => $url_real,
